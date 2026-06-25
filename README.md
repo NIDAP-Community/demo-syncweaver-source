@@ -9,7 +9,7 @@ mkdir -p modules/ .github/workflows
 syncweaver templates add syncweaver-source-dispatch
 ```
 
-## Create code to be sourced by hosts
+### Create code to be sourced by hosts
 
 Example module as a minimal R package:
 
@@ -24,3 +24,7 @@ devtools::document("modules/hello")
 ```
 
 Sources do not strictly have to be R packages, but functracer can only work if a NAMESPACE file exists.
+
+## Usage
+
+Cut a release, or run the `syncweaver-source-dispatch` workflow manually.
