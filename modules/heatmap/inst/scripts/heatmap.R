@@ -1,5 +1,5 @@
 args <- commandArgs(trailingOnly = TRUE)
 x <- args[[1]]
-if (require(hello)) {
-  hello::hello_message(x)
+if (require(heatmap)) {
+  heatmap::plot_heatmap(x)
 }
