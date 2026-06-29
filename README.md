@@ -1,4 +1,4 @@
-# demo-syncweaver-source
+# demo-syncweaver-source-monorepo
 
 Example source repository to demonstrate syncweaver
 
