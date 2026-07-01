@@ -4,5 +4,5 @@
 #' @return A heatmap plot object.
 #' @export
 plot_heatmap <- function(dat = NULL) {
-  message('plot_heatmap is not yet implemented')
+  stop('plot_heatmap() is not yet implemented')
 }
